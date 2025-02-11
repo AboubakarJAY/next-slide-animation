@@ -7,20 +7,17 @@
 
 @keyframes next-slide {
   0% {
-    transform-origin: 20% 80%;
-    transform: rotate(-20deg) skewX(-7deg);
+    transform: rotate3d(0, 0, 1, -20deg) skewX(-7deg);
     background: #091209;
     color: white;
   }
   50% {
-    transform-origin: 70% 100%;
-    transform: rotate(5deg) skewX(5deg);
+    transform: rotate3d(1, 1, 0, 25deg) skewX(5deg);
     background: #b88629;
     color: black;
   }
   100% {
-    transform-origin: 70% 80%;
-    transform: rotate(0deg) skewX(0deg);
+    transform: rotate3d(0, 0, 0, 0deg) skewX(0deg);
     background: #7d7d7d;
     color: white;
   }
